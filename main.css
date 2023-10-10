@@ -1,0 +1,236 @@
+*{
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #f1f1f1;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cf9913;
+    color: black;
+}
+
+nav
+{
+    display: none;
+}
+
+nav a:visited{
+    color:#000;
+   
+}
+
+#botao-hamburguer
+{
+    display: block;
+    background-color: transparent;
+    border: 0;
+    font-size: 24px;
+}
+
+#botao-click{
+    color: black;
+    background-color: #cf9913;
+    border-radius: 10px;
+    margin: 10px;
+    border: 0;
+    padding: 2%;
+    align-items: center;
+}
+
+.container
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   gap: 12px;
+}
+
+#jorge3{
+    padding: 0 1%;
+    color: #cf9913;
+}
+
+#promoção{
+   padding: 0 1%;
+}
+
+#imagens{
+    margin: 10px;
+}
+
+h2{
+    margin: 15px 0;
+}
+
+#painel{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+#jorge2{
+    background-color:#f1f1f1;
+    padding-bottom: 2%;
+}
+
+ h3{
+     color: #000;
+ }
+
+ h2{
+    color:#000;
+    padding: 20px;
+}
+
+article{
+    background-color:hsl(0, 0%, 100%);
+    padding: 2%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 50%;
+
+}
+
+footer{
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    text-align: center;
+    font-size: 12px;
+    background-color: #cf9913;
+    color: white;
+}
+
+footer p{
+    color: black;
+}
+
+#area_banner img{
+    width: 100%;
+}
+
+#area-login{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 20px;
+
+}
+
+input{
+    border-radius: 20px;
+    border: 0;
+    padding: 5%;
+}
+
+#botao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#botao input[value="Acessar"]{
+    background-color: #cf9913;
+    color:#000;
+    width: 200px;
+    justify-content:left;
+    flex-direction: column;
+    align-items: center;
+}
+
+#botao input[value="Cadastre-se"]{
+    background-color: #000;
+    color:#cf9913;
+    width: 200px;
+}
+
+#edit{
+    margin: 0;
+}
+
+@media (min-width: 1280px)
+{
+    .container
+    {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+    }
+    nav{
+        display: block;
+    }
+    
+    #botao-hamburguer
+    {
+        display: none;
+    }
+    
+    a{
+        font-weight: bold;
+        font-size: 24px;
+        margin: 0 10px;
+    }
+    
+    #painel{
+        display: flex;
+        justify-content: space-around;
+        background-color:#f1f1f1;
+        flex-direction: row;
+        gap: 12px;
+        align-items: center;
+
+    }
+    
+    #botao-click{
+        color: #000;
+        background-color: #cf9913;
+        border-radius: 10px;
+        margin: 10px;
+        border: 0;
+        padding: 0.5%;
+
+    }
+    
+    #jorge3{
+        display: flex;
+        
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+
+    }
+    
+    .gelo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+}
+
+ 
