@@ -58,11 +58,12 @@ nav a:visited{
 
 #jorge3{
     padding: 0 1%;
-    color: #cf9913;
+    color: #000000;
 }
 
 #promoção{
    padding: 0 1%;
+   
 }
 
 #imagens{
@@ -114,6 +115,8 @@ footer{
     font-size: 12px;
     background-color: #cf9913;
     color: white;
+    width: 100%;
+    height: 100%;
 }
 
 footer p{
@@ -129,6 +132,7 @@ footer p{
     flex-direction: column;
     align-items: center;
     justify-content:center;
+    margin: 7.5%;
 }
 
 form{
@@ -136,6 +140,7 @@ form{
     flex-direction: column;
     width: 80%;
     margin: 0 20px;
+    margin-top: 20px;
 
 }
 
@@ -215,21 +220,34 @@ input{
     
     #jorge3{
         display: flex;
-        
+        align-items: center;
+        color: #000;
+
+    }
+
+    #jorge3 p
+    {
+        margin-top: 50px;
     }
     
     .container{
         display: flex;
         flex-direction: row;
-
+        align-items: flex-start;
     }
     
+    #jorge2{
+        margin-top: 100px;
+    }
     .gelo{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
     }
+    #promoção{
+        padding: 0 1%;
+     }
     
 }
 
