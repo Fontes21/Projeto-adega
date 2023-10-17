@@ -165,11 +165,6 @@ input{
     align-items: center;
 }
 
-#botao input[value="Cadastre-se"]{
-    background-color: #000;
-    color:#cf9913;
-    width: 200px;
-}
 
 #edit{
     margin: 0;
